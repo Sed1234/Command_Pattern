@@ -110,6 +110,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Document.h" />
+    <ClInclude Include="InsertCommand.h" />
+    <ClInclude Include="InsertTestCase.h" />
+    <ClInclude Include="MyReceiver.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TestCase.h" />
+    <ClInclude Include="UndoTestCase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Document.cpp" />
+    <ClCompile Include="InsertCommand.cpp" />
+    <ClCompile Include="InsertTestCase.cpp" />
+    <ClCompile Include="MyReceiver.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TestCase.cpp" />
+    <ClCompile Include="UndoTestCase.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
